@@ -2,8 +2,8 @@ pipeline {
     agent any
     
     tools {
-        maven 'Maven'  // Name of the Maven installation in Jenkins
-        jdk 'JDK'      // Name of the JDK installation in Jenkins
+        maven 'local maven'  // Name of the Maven installation in Jenkins
+        jdk 'local JDK'      // Name of the JDK installation in Jenkins
     }
 
     stages {
