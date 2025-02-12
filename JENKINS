@@ -6,7 +6,7 @@ pipeline {
         jdk 'local JDK'      // Name of the JDK installation in Jenkins
     }
 
-    stages {
+    stages 
         stage('Checkout') {
             steps {
                 git 'https://github.com/Ujjwal12121/jenkins-freestyle-builds.git'  // Replace with your repository URL
