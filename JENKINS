@@ -9,7 +9,7 @@ pipeline {
     stages 
         stage('Checkout') {
             steps {
-                git 'https://github.com/Ujjwal12121/jenkins-freestyle-builds.git'  // Replace with your repository URL
+                git 'https://github.com/Ujjwal12121/SL-CICD-MAVEN-18-JAN.git'  // Replace with your repository URL
             }
         }
 
