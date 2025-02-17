@@ -1,12 +1,12 @@
 pipeline {
     agent any
-    
+
     tools {
         maven 'local maven'  // Name of the Maven installation in Jenkins
         jdk 'local jdk'      // Name of the JDK installation in Jenkins
     }
 
-    stages 
+    stages {  // Added missing brace to encapsulate the stages
         stage('Checkout') {
             steps {
                 git 'https://github.com/Ujjwal12121/SL-CICD-MAVEN-18-JAN.git'  // Replace with your repository URL
